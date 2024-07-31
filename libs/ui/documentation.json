@@ -4,7 +4,7 @@
         {
             "name": "User",
             "id": "interface-User-d4821beac0e4a852e513391b7470981c4353fdd95a18628bb68136c8695b489ee15b926e2e5031bc26cf30e1508e0a362c3ee13a06734702b4d15af140e485d5",
-            "file": "projects/ui/src/stories/user.ts",
+            "file": "libs/ui/src/stories/user.ts",
             "deprecated": false,
             "deprecationMessage": "",
             "type": "interface",
@@ -30,7 +30,7 @@
         {
             "name": "UiService",
             "id": "injectable-UiService-cea688e3a6c073b7612d4e232828b99c30de1b15646836834772c2827b64ca8ca5ac1543369a2e1ac0babb8ac201b7d81c5c682cd3d66683d6d129a7558507e4",
-            "file": "projects/ui/src/lib/ui.service.ts",
+            "file": "libs/ui/src/lib/ui.service.ts",
             "properties": [],
             "methods": [],
             "deprecated": false,
@@ -58,7 +58,7 @@
         {
             "name": "ButtonComponent",
             "id": "component-ButtonComponent-86e2311c54fbca7431c12e070d0fd5b0ebe343eec0553a392f182ba0e04a8f86613233d26ee47718fd0e7a65078f580c76a1fcc928ce55de81193d6618025bc4",
-            "file": "projects/ui/src/stories/button.component.ts",
+            "file": "libs/ui/src/stories/button.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -191,7 +191,7 @@
         {
             "name": "HeaderComponent",
             "id": "component-HeaderComponent-cad94b233ec8e80ceb541e7972c5f9737e08237b4e137112f3987ca48ee0cce5c0d57798d41daa5d4d24d6bdbb2df1606ab68cca2aa0a1785e38f99f3cac0729",
-            "file": "projects/ui/src/stories/header.component.ts",
+            "file": "libs/ui/src/stories/header.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -277,7 +277,7 @@
         {
             "name": "PageComponent",
             "id": "component-PageComponent-d32b0f19628254ea3fc5526c4d4564ada1cc83cf936759006d90a46f5874b02a3359e331bddda20b22e74a616a6443c660602ba74dd38ebe1160759e0de6f7ba",
-            "file": "projects/ui/src/stories/page.component.ts",
+            "file": "libs/ui/src/stories/page.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -370,7 +370,7 @@
         {
             "name": "ThemesComponent",
             "id": "component-ThemesComponent-7a7b8e97a7484bf4572bd0d80a975195b10ad05804f25e504086d5b199174e16aaaa6212580a58ceed73e8ca0238cf05e9af36bc0993abc9dde376ce2c4442c4",
-            "file": "projects/ui/src/lib/themes/themes.component.ts",
+            "file": "libs/ui/src/lib/themes/themes.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -414,7 +414,7 @@
         {
             "name": "UiComponent",
             "id": "component-UiComponent-ea0f0cba33c7c01e488040246c7db5ebcfa816f6f9f4f3c768b6c850ba23d7c41a5076aca3f42b15071876267a85ca83b382f6951c262f664aec15c7a1abc50e",
-            "file": "projects/ui/src/lib/ui.component.ts",
+            "file": "libs/ui/src/lib/ui.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -454,7 +454,7 @@
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
-            "file": "projects/ui/src/lib/ui.module.ts",
+            "file": "libs/ui/src/lib/ui.module.ts",
             "methods": [],
             "sourceCode": "import { NgModule } from '@angular/core';\nimport { UiComponent } from './ui.component';\nimport { ThemesComponent } from './themes/themes.component';\n\n\n\n@NgModule({\n  declarations: [\n    UiComponent,\n    ThemesComponent\n  ],\n  imports: [\n  ],\n  exports: [\n    UiComponent\n  ]\n})\nexport class UiModule { }\n",
             "children": [
@@ -502,7 +502,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui/src/lib/themes/themes.component.stories.ts",
+                "file": "libs/ui/src/lib/themes/themes.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -512,7 +512,7 @@
                 "name": "Large",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui/src/stories/button.stories.ts",
+                "file": "libs/ui/src/stories/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -522,7 +522,7 @@
                 "name": "LoggedIn",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui/src/stories/header.stories.ts",
+                "file": "libs/ui/src/stories/header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -532,7 +532,7 @@
                 "name": "LoggedIn",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui/src/stories/page.stories.ts",
+                "file": "libs/ui/src/stories/page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -542,7 +542,7 @@
                 "name": "LoggedOut",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui/src/stories/header.stories.ts",
+                "file": "libs/ui/src/stories/header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -552,7 +552,7 @@
                 "name": "LoggedOut",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui/src/stories/page.stories.ts",
+                "file": "libs/ui/src/stories/page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -562,17 +562,17 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui/src/stories/button.stories.ts",
+                "file": "libs/ui/src/stories/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<ButtonComponent>",
-                "defaultValue": "{\n  title: 'Example/Button',\n  component: ButtonComponent,\n  tags: ['autodocs'],\n  render: (args: ButtonComponent) => ({\n    props: {\n      backgroundColor: null,\n      ...args,\n    },\n  }),\n  argTypes: {\n    backgroundColor: {\n      control: 'color',\n    },\n  },\n}"
+                "defaultValue": "{\n  title: 'Example/Button',\n  component: ButtonComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    backgroundColor: {\n      control: 'color',\n    },\n  },\n}"
             },
             {
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui/src/stories/header.stories.ts",
+                "file": "libs/ui/src/stories/header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<HeaderComponent>",
@@ -582,7 +582,7 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui/src/stories/page.stories.ts",
+                "file": "libs/ui/src/stories/page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<PageComponent>",
@@ -592,7 +592,7 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui/src/lib/themes/themes.component.stories.ts",
+                "file": "libs/ui/src/lib/themes/themes.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<ThemesComponent>",
@@ -602,7 +602,7 @@
                 "name": "preview",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui/.storybook/preview.ts",
+                "file": "libs/ui/.storybook/preview.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Preview",
@@ -612,7 +612,7 @@
                 "name": "Primary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui/src/stories/button.stories.ts",
+                "file": "libs/ui/src/stories/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -622,7 +622,7 @@
                 "name": "Secondary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui/src/stories/button.stories.ts",
+                "file": "libs/ui/src/stories/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -632,7 +632,7 @@
                 "name": "Small",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui/src/stories/button.stories.ts",
+                "file": "libs/ui/src/stories/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -646,7 +646,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<ButtonComponent>",
-                "file": "projects/ui/src/stories/button.stories.ts",
+                "file": "libs/ui/src/stories/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -657,7 +657,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<HeaderComponent>",
-                "file": "projects/ui/src/stories/header.stories.ts",
+                "file": "libs/ui/src/stories/header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -668,7 +668,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<PageComponent>",
-                "file": "projects/ui/src/stories/page.stories.ts",
+                "file": "libs/ui/src/stories/page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -679,7 +679,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<ThemesComponent>",
-                "file": "projects/ui/src/lib/themes/themes.component.stories.ts",
+                "file": "libs/ui/src/lib/themes/themes.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -688,12 +688,12 @@
         ],
         "enumerations": [],
         "groupedVariables": {
-            "projects/ui/src/lib/themes/themes.component.stories.ts": [
+            "libs/ui/src/lib/themes/themes.component.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui/src/lib/themes/themes.component.stories.ts",
+                    "file": "libs/ui/src/lib/themes/themes.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -703,19 +703,19 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui/src/lib/themes/themes.component.stories.ts",
+                    "file": "libs/ui/src/lib/themes/themes.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<ThemesComponent>",
                     "defaultValue": "{\n  title: 'Themes',\n  component: ThemesComponent,\n  parameters: {\n    layout: 'centered'\n  }\n}"
                 }
             ],
-            "projects/ui/src/stories/button.stories.ts": [
+            "libs/ui/src/stories/button.stories.ts": [
                 {
                     "name": "Large",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui/src/stories/button.stories.ts",
+                    "file": "libs/ui/src/stories/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -725,17 +725,17 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui/src/stories/button.stories.ts",
+                    "file": "libs/ui/src/stories/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<ButtonComponent>",
-                    "defaultValue": "{\n  title: 'Example/Button',\n  component: ButtonComponent,\n  tags: ['autodocs'],\n  render: (args: ButtonComponent) => ({\n    props: {\n      backgroundColor: null,\n      ...args,\n    },\n  }),\n  argTypes: {\n    backgroundColor: {\n      control: 'color',\n    },\n  },\n}"
+                    "defaultValue": "{\n  title: 'Example/Button',\n  component: ButtonComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    backgroundColor: {\n      control: 'color',\n    },\n  },\n}"
                 },
                 {
                     "name": "Primary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui/src/stories/button.stories.ts",
+                    "file": "libs/ui/src/stories/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -745,7 +745,7 @@
                     "name": "Secondary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui/src/stories/button.stories.ts",
+                    "file": "libs/ui/src/stories/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -755,19 +755,19 @@
                     "name": "Small",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui/src/stories/button.stories.ts",
+                    "file": "libs/ui/src/stories/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
                     "defaultValue": "{\n  args: {\n    size: 'small',\n    label: 'Button',\n  },\n}"
                 }
             ],
-            "projects/ui/src/stories/header.stories.ts": [
+            "libs/ui/src/stories/header.stories.ts": [
                 {
                     "name": "LoggedIn",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui/src/stories/header.stories.ts",
+                    "file": "libs/ui/src/stories/header.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -777,7 +777,7 @@
                     "name": "LoggedOut",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui/src/stories/header.stories.ts",
+                    "file": "libs/ui/src/stories/header.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -787,19 +787,19 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui/src/stories/header.stories.ts",
+                    "file": "libs/ui/src/stories/header.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<HeaderComponent>",
                     "defaultValue": "{\n  title: 'Example/Header',\n  component: HeaderComponent,\n  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs\n  tags: ['autodocs'],\n  parameters: {\n    // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout\n    layout: 'fullscreen',\n  },\n}"
                 }
             ],
-            "projects/ui/src/stories/page.stories.ts": [
+            "libs/ui/src/stories/page.stories.ts": [
                 {
                     "name": "LoggedIn",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui/src/stories/page.stories.ts",
+                    "file": "libs/ui/src/stories/page.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -809,7 +809,7 @@
                     "name": "LoggedOut",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui/src/stories/page.stories.ts",
+                    "file": "libs/ui/src/stories/page.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -819,19 +819,19 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui/src/stories/page.stories.ts",
+                    "file": "libs/ui/src/stories/page.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<PageComponent>",
                     "defaultValue": "{\n  title: 'Example/Page',\n  component: PageComponent,\n  parameters: {\n    // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout\n    layout: 'fullscreen',\n  },\n}"
                 }
             ],
-            "projects/ui/.storybook/preview.ts": [
+            "libs/ui/.storybook/preview.ts": [
                 {
                     "name": "preview",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui/.storybook/preview.ts",
+                    "file": "libs/ui/.storybook/preview.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Preview",
@@ -842,52 +842,52 @@
         "groupedFunctions": {},
         "groupedEnumerations": {},
         "groupedTypeAliases": {
-            "projects/ui/src/stories/button.stories.ts": [
+            "libs/ui/src/stories/button.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<ButtonComponent>",
-                    "file": "projects/ui/src/stories/button.stories.ts",
+                    "file": "libs/ui/src/stories/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "projects/ui/src/stories/header.stories.ts": [
+            "libs/ui/src/stories/header.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<HeaderComponent>",
-                    "file": "projects/ui/src/stories/header.stories.ts",
+                    "file": "libs/ui/src/stories/header.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "projects/ui/src/stories/page.stories.ts": [
+            "libs/ui/src/stories/page.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<PageComponent>",
-                    "file": "projects/ui/src/stories/page.stories.ts",
+                    "file": "libs/ui/src/stories/page.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "projects/ui/src/lib/themes/themes.component.stories.ts": [
+            "libs/ui/src/lib/themes/themes.component.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<ThemesComponent>",
-                    "file": "projects/ui/src/lib/themes/themes.component.stories.ts",
+                    "file": "libs/ui/src/lib/themes/themes.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -902,7 +902,7 @@
         "status": "low",
         "files": [
             {
-                "filePath": "projects/ui/.storybook/preview.ts",
+                "filePath": "libs/ui/.storybook/preview.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -912,7 +912,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/lib/themes/themes.component.stories.ts",
+                "filePath": "libs/ui/src/lib/themes/themes.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -922,7 +922,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/lib/themes/themes.component.stories.ts",
+                "filePath": "libs/ui/src/lib/themes/themes.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -932,7 +932,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/lib/themes/themes.component.ts",
+                "filePath": "libs/ui/src/lib/themes/themes.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "ThemesComponent",
@@ -941,7 +941,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/lib/ui.component.ts",
+                "filePath": "libs/ui/src/lib/ui.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "UiComponent",
@@ -950,7 +950,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/lib/ui.service.ts",
+                "filePath": "libs/ui/src/lib/ui.service.ts",
                 "type": "injectable",
                 "linktype": "injectable",
                 "name": "UiService",
@@ -959,7 +959,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/stories/button.component.ts",
+                "filePath": "libs/ui/src/stories/button.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "ButtonComponent",
@@ -968,7 +968,7 @@
                 "status": "very-good"
             },
             {
-                "filePath": "projects/ui/src/stories/button.stories.ts",
+                "filePath": "libs/ui/src/stories/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -978,7 +978,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/stories/button.stories.ts",
+                "filePath": "libs/ui/src/stories/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -988,7 +988,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/stories/button.stories.ts",
+                "filePath": "libs/ui/src/stories/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -998,7 +998,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/stories/button.stories.ts",
+                "filePath": "libs/ui/src/stories/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1008,7 +1008,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/stories/button.stories.ts",
+                "filePath": "libs/ui/src/stories/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1018,7 +1018,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/stories/header.component.ts",
+                "filePath": "libs/ui/src/stories/header.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "HeaderComponent",
@@ -1027,7 +1027,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/stories/header.stories.ts",
+                "filePath": "libs/ui/src/stories/header.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1037,7 +1037,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/stories/header.stories.ts",
+                "filePath": "libs/ui/src/stories/header.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1047,7 +1047,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/stories/header.stories.ts",
+                "filePath": "libs/ui/src/stories/header.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1057,7 +1057,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/stories/page.component.ts",
+                "filePath": "libs/ui/src/stories/page.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "PageComponent",
@@ -1066,7 +1066,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/stories/page.stories.ts",
+                "filePath": "libs/ui/src/stories/page.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1076,7 +1076,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/stories/page.stories.ts",
+                "filePath": "libs/ui/src/stories/page.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1086,7 +1086,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/stories/page.stories.ts",
+                "filePath": "libs/ui/src/stories/page.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1096,7 +1096,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui/src/stories/user.ts",
+                "filePath": "libs/ui/src/stories/user.ts",
                 "type": "interface",
                 "linktype": "interface",
                 "name": "User",
